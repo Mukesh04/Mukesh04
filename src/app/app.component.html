@@ -1,0 +1,21 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!!
+  </h1>
+</div> -->
+  <nav class='navbar navbar-expand navbar-light bg-light'>
+      <ul class="nav nav-pills">
+        <li><a class = 'nav-link active' [routerLink]="['/welcome']" routerLinkActive="router-link-active" >Home</a></li>
+        <li><a class = 'nav-link' [routerLink]="['/products']">Product</a></li>
+      </ul>
+
+    <a class="navbar-brand" style="font-weight: lighter; font-family: monospace; display:block;margin: 0 auto;color:gold;font-size: 30px">{{title}}</a>
+  </nav>
+
+  <div class="continer">
+      <router-outlet>
+
+      </router-outlet>
+  </div>
+<!-- <pm-products></pm-products> -->
